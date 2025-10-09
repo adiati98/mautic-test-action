@@ -21,12 +21,12 @@ jobs:
     steps:
       - uses: actions/first-interaction@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: |
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_message: |
             👋 **Welcome and thanks for opening your first issue!**
 
             A maintainer will review this issue shortly. If you'd like to work on this issue, please leave a comment and tag the `@mautic/education-team-leaders`.
-          pr-message: |
+          pr_message: |
             🎉 **Congratulations on opening your first PR!** 🎉
 
             Thank you for taking the time to improve Mautic. We truly appreciate it. ✨ 
